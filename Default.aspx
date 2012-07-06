@@ -26,8 +26,11 @@
     Tic Tac Toe
     </div>
     <div style="margin-top:20px; text-align:center;">
-        <asp:Button ID="StartGame" runat=server/>
-        
+        <asp:Button ID="StartGame" runat=server/>        
+    </div>
+    <div style="margin-top:20px; text-align:center;">
+        <asp:Button ID="NextMove" runat=server/>   
+        <asp:Button ID="QuitGame" runat=server/>     
     </div>
     </form>
 </body>
